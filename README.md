@@ -8,7 +8,7 @@ Disclaimer: This isn't a tutorial for learning D, or any specific library or too
 Instead, the goal of this tutorial is to demonstrate "best practices" in a rather opinionated way, such that by the end a person can create a workflow which is somewhat rational and can be understood and shared easily.
 
 In the end, you should have enough knowledge to:
-* Install the D compiler.
+* [Install](./T001: InstallDMD.md) the D compiler.
 * Start a project from scratch.
 * Create a git repository for the project.
 * Use DUB.
