@@ -17,4 +17,5 @@ In the end, you should have enough knowledge to:
 * Build unit tests.
 * Write documentation.
 * Build for Development, Testing, and Stable Release cycles.
+* Use the debugger.
 * Share the project with the community.
