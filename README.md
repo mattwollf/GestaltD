@@ -12,8 +12,8 @@ In the end, you should have enough knowledge to:
 * Start a project from scratch.
 * Create a git repository for the project.
 * Use DUB.
-* Build a non-trivial application using multiple libraries and tools in conjunction with each other.
 * Use advanced architectural patterns like MVC.
+* Build a non-trivial application using multiple libraries and tools in conjunction with each other.
 * Build unit tests.
 * Write documentation.
 * Build for Development, Testing, and Stable Release cycles.
