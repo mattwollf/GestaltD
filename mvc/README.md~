@@ -1,5 +1,5 @@
-#Debuging D
-[GestaltD](../README.md) → [Debuging](./README.md)
+#Using MVC patterns
+[GestaltD](../README.md) → [MVC](./README.md)
 
 ##Foreword
 
@@ -7,13 +7,15 @@
 
 ##Prerequisites
 ###Required
-* [Install Ubuntu](/ubuntu/README.md)
+* [HibernateD](/hibernated/README.md)
+* [GTK](/gtk/README.md)
+* [Vibe](/vibe/README.md)
 ###Optional
 * None
 
 ##Table of Contents
 * [GestaltD](/README.md)
-* * [Debuging](./README.md)
+* * [MVC](./README.md)
 * * * [Install](./install.md) 
 
 ##Experimenting

@@ -1,5 +1,5 @@
-#Debuging D
-[GestaltD](../README.md) → [Debuging](./README.md)
+#Using GTK
+[GestaltD](../README.md) → [GTK](./README.md)
 
 ##Foreword
 
@@ -13,7 +13,7 @@
 
 ##Table of Contents
 * [GestaltD](/README.md)
-* * [Debuging](./README.md)
+* * [GTK](./README.md)
 * * * [Install](./install.md) 
 
 ##Experimenting

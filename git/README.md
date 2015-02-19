@@ -1,5 +1,5 @@
-#Debuging D
-[GestaltD](../README.md) → [Debuging](./README.md)
+#Using Git
+[GestaltD](../README.md) → [Git](./README.md)
 
 ##Foreword
 
@@ -13,7 +13,7 @@
 
 ##Table of Contents
 * [GestaltD](/README.md)
-* * [Debuging](./README.md)
+* * [Git](./README.md)
 * * * [Install](./install.md) 
 
 ##Experimenting
