@@ -10,7 +10,11 @@
 
 ##Core Instruction
 
+##Quick Test
+
 ##Experimenting
+
+##Critical Thinking
 
 ##Next steps.
 

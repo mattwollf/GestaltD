@@ -1,12 +1,13 @@
-#Installing a D virtual environment using lxc on your Ubuntu host
+#Installing LXC on your Ubuntu host
 
 ##Foreword
 
-Installation of Linux containers is pretty straight forward. Everything required is availible in Ubuntu's apt repository.
+Installation of Linux containers is pretty straight forward. 
+Everything required is availible in Ubuntu's apt repository.
 
 ##Prerequisites
 
-* Install Ubuntu.
+* [Install Ubuntu](/ubuntu/README.md).
 
 * Your user must have **sudo** privileges.
 
@@ -19,35 +20,64 @@ Installation of Linux containers is pretty straight forward. Everything required
 >*This will install **lxc** along with some generic templates. 
 >Included in the lxc-templates package is the "ubuntu" template, which is what we will use for each tutorial.*
 
-    user@host ~ $sudo lxc-create -t ubuntu -n d_virt_env
+##RTFM
+    user@host ~ $ man lxc
 
->*Create a container named **d_virt_env** from the **ubuntu** template.*
+> The man pages for lxc is a good place to start if you are new to Linux containers.
+> If you have a question the first rule is always RTFM. Go ahead and do it now.
 
->>Notice there are two flags:
->>>**-n** This is the name of your container.
->>>**-t** This is the container template you want to use.
+##Quick Test
+If the you were successful in reading the man pages, you are probably set.
+Another helpful technique is to see what is installed is to type
 
->*You don't need to call your container **d_virt_env**, you can name it whatever you want. However, for the purposes of this tutorial we will call it **d_virt_env** because this tutorial is about the D environment.*
+    user@host ~ $ lxc<TAB><TAB>
 
-    user@host ~ $sudo lxc-start -n d_virt_env
+(Press Tab a couple of times).
+This will bring up a list of programs starting with "lxc"
 
->*Start your D virtual environment (**d_virt_env**)*
+    lxc-attach           lxc-destroy          lxc-start
+    lxc-autostart        lxc-device           lxc-start-ephemeral
+    lxc-cgroup           lxc-execute          lxc-stop
+    lxc-checkconfig      lxc-freeze           lxc-unfreeze
+    lxc-clone            lxc-info             lxc-unshare
+    lxc-config           lxc-ls               lxc-usernsexec
+    lxc-console          lxc-monitor          lxc-wait
+    lxc-create           lxc-snapshot 
 
-    user@host ~ $sudo lxc-info -n d_virt_env
+We will go over some of these in later tutorials.
+But for now it is well enough to know what is installed.
 
->*Get **d_virt_env**'s info*
+The above listed programs **should** be installed in /usr/bin/
+You can check that they exits now.
 
->*Notice the **IP Address** you can use this to log into the container at any time.*
+    user@host ~ $ cd /usr/bin/
 
-    user@host ~ $ssh ubuntu@<IP Address>
+    user@host ~ $ ls lxc*
 
->*Log into the **d_virt_env** container as if it were an individual machine*
+You should see the same list as before.
 
->*The default username is **ubuntu***
+If these steps are successful, congratulations. LXC should be installed.
 
->*The default password is: **ubuntu***
+Now let's test if our templates have been installed.
+Change directory to /usr/share/lxc/templates/
+
+    user@host ~ $ cd /usr/share/lxc/templates/
+
+List the contents
+
+    user@host ~ $ ls
+
+You should see a dozen or so list of files.
+The one we will most be interested in is: "lxc-ubuntu".
+But it is good to have an idea of where templates are stored and which ones are availible.
+
+If you can verify lxc has been installed and verify the templates have been installed, you can continue.
+
+##Experimenting
+
+##Critical Thinking
 
 ## Next steps.
-* Install the DMD compiler
+* [Create](./create.md) a new virtual environment
 
 ## Learn More
