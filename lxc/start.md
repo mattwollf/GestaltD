@@ -11,6 +11,7 @@ with the host machine.
 ##Prerequisites
 ###Required
 * [Create](./create) a Linux container image.
+
 ###Optional
 
 ##Core Instruction
@@ -45,7 +46,7 @@ with the host machine.
 > We will explore **lxc-info** in more detail in the next segment. 
 > For now just note:
 
-    **State:         RUNNING**
+    State:         RUNNING
 
 > If State is RUNNING, this tutorial has been successful.
 
