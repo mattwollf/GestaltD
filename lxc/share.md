@@ -1,6 +1,5 @@
-#Title
-
-[GestaltD](../README.md) → [LXC](./README.md) → [create](./create.md)
+#Share Your Linux Container Image
+[GestaltD](../README.md) → [LXC](./README.md) → [share](./share.md)
 
 ##Foreword
 

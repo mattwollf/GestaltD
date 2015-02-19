@@ -1,6 +1,6 @@
-#Title
+#Destroy a Linux Container Image
 
-[GestaltD](../README.md) → [LXC](./README.md) → [create](./create.md)
+[GestaltD](../README.md) → [LXC](./README.md) → [destroy](./destroy.md)
 
 ##Foreword
 

@@ -1,6 +1,6 @@
-#Title
+#Get Information About Your Linux Container Image
 
-[GestaltD](../README.md) → [LXC](./README.md) → [create](./create.md)
+[GestaltD](../README.md) → [LXC](./README.md) → [info](./info.md)
 
 ##Foreword
 

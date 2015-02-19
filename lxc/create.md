@@ -1,16 +1,16 @@
-#Title
+#Create a Linux Container Image
 
 [GestaltD](../README.md) → [LXC](./README.md) → [create](./create.md)
 
 ##Foreword
 
-> Creating an Linux container is straight-forward. 
-> Essentially, **lxc** clones an existing template which you should be aware of from the [last tutorial](./install.md). 
-> We will be using the **lxc-ubuntu** template for most of the work we do here.
+Creating an Linux container is straight-forward. 
+Essentially, **lxc** clones an existing template which you should be aware of from the [last tutorial](./install.md). 
+We will be using the **lxc-ubuntu** template for most of the work we do here.
 
 ##Prerequisites
 ###Required
-[Install](./install.md) lxc and lxc-templates
+* [Install](./install.md) lxc and lxc-templates
 
 ###Optional
 
@@ -44,11 +44,18 @@
 
     user@host ~ $ lxc-create --help
 
-> Also helpful for a quick understanding of our options.
+> Is also helpful for a quick understanding of our options.
 
 ##Quick Test
 ###Check that our container image was successfully created.
-> If we do a cursory check in **/var/lib/lxc**
+> The easiest way to find our new container is to use **lxc-ls**
+
+    user@host ~ $ sudo lxc-ls
+
+> You should see the container you just created. 
+> You will see others if you have created them as well. 
+
+> If we do a further cursory check in **/var/lib/lxc**
 
     user@host ~ $ cd /var/lib/lxc/
 
