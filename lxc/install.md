@@ -11,7 +11,7 @@ Everything required is availible in Ubuntu's apt repository.
 
 * Your user must have **sudo** privileges.
 
-## Instruction
+##Core Instruction
 
 > The First thing you want to do is install **lxc** from the apt repository
 

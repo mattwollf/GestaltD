@@ -14,11 +14,15 @@
 
     user@host ~ $sudo lxc-start -n d_virt_env
 
+##RTFM
+
 ##Quick Test
 
 ##Experimenting
 
 ##Critical Thinking
+
+##Review
 
 ##Next steps.
 * Get some [information](./info.md) about your virtual environment

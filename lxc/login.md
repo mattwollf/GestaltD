@@ -19,11 +19,15 @@
 
 >*The default password is: **ubuntu** *
 
+##RTFM
+
 ##Quick Test
 
 ##Experimenting
 
 ##Critical Thinking
+
+##Review
 
 ##Next Steps
 * [Install DMD](/dmd/README.md)

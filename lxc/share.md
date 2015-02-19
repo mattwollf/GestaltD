@@ -10,11 +10,15 @@
 
 ##Core Instruction
 
+##RTFM
+
 ##Quick Test
 
 ##Experimenting
 
 ##Critical Thinking
+
+##Review
 
 ##Next steps.
 
