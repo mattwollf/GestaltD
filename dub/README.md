@@ -14,13 +14,13 @@ It is not required, but reccommended.
 
 ##Table of Contents
 * [GestaltD](/README.md)
-*  [DUB](./README.md)
-*   [Install](./install.md)
-*   [Create](./create.md)
-*   [Run](./run.md)
+    * [DUB](./README.md)
+        * [Install](./install.md)
+        * [Create](./create.md)
+        * [Run](./run.md)
 
 ##Next steps.
-    [Install](./install.md) DUB
+[Install](./install.md) DUB
 
 ##Learn More
 
