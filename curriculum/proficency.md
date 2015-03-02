@@ -15,6 +15,8 @@ many different tools and want to start at their "Grade Level".
         * **☑ [Install binaries](/dmd/install.md)**
         * **☑ Compile from source**
     * **☑ [Install DUB](/dub/install.md)**
+        * **☑ [Create a new project](/dub/create.md)**
+    * **☑ [Install Debugger](/debugger/install.md)**
 
 * **☑ Beginner Phase:** These tutorials focus on very simplistic use cases.
     * **☑ LXC**
@@ -22,12 +24,21 @@ many different tools and want to start at their "Grade Level".
         * **☑ [Start a container](/lxc/start.md)**
         * **☑ [Get a container's info](/lxc/info.md)**
         * **☑ [Log into a container](/lxc/login.md)**
+    * **☑ DMD**
+        * **☑ [Hello World DMD](/dmd/hello_world.md)** A simplistic "Hello World" program using DMD
+        * **☑ [Hello World RDMD](/dmd/rdmd.md)**  A simplistic "Hello World" program using RDMD
+    * **☑ DUB**
+        * **☑ [Compile / Run a DUB project](/dub/run.md)**
+    * **☑ Git**
+        * **☑ Add to a repository**
 
 * **☑ Intermediate Phase:** These tutorials focus on using tools to solve common problems and create a "minimum viable product".
+    * **☑ DEBUGER**
 
 * **☑ Workgroup phase:** These tutorials focus on using tools to publish and / or share with a workgroup.
     * **☑ LXC**
         * **☑ Share a container**
+    * **☑ Git**
 
 * **☑ Advanced Phase:** These tutorials focus on using tools to create a "polished" project.
     * **☑ LXC**
