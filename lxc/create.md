@@ -35,17 +35,6 @@ We will be using the **lxc-ubuntu** template for most of the work we do here.
 > Write this down, or at least take a mental note of it.
 > You will need this later.
 
-##RTFM
-    user@host ~ $ man lxc-create
-
-> As always the **man** pages are a wealth of information. 
-> Notably, we find out the "**object directory**" (the image for our container) 
-> is stored in **/var/lib/lxc/** by default.
-
-    user@host ~ $ lxc-create --help
-
-> Is also helpful for a quick understanding of our options.
-
 ##Quick Test
 ###Check that our container image was successfully created.
 > The easiest way to find our new container is to use **lxc-ls**
@@ -81,6 +70,17 @@ We will be using the **lxc-ubuntu** template for most of the work we do here.
 
 > **Note:** This may fail depending on permissions, 
 > but that's OK, because we will be using the default directory anyway.
+
+##RTFM
+    user@host ~ $ man lxc-create
+
+> As always the **man** pages are a wealth of information. 
+> Notably, we find out the "**object directory**" (the image for our container) 
+> is stored in **/var/lib/lxc/** by default.
+
+    user@host ~ $ lxc-create --help
+
+> Is also helpful for a quick understanding of our options.
 
 ##Critical Thinking
 * Why is **/var/lib/lxc/** locked down so securely?

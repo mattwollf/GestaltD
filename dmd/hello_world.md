@@ -58,13 +58,15 @@ damned if she doesn't get the job done.
 > I will however give one last clue for users who might not know how to save a 
 > file in nano. (Last hint on text editors, I swear)
 
-> <ctrl>+x exits.
+    <ctrl>+x
+
+> exits nano.
 
 > If your buffer has been edited, (Your file is unsaved), you will be prompted to save.
 
-> press "y"
+> press "y" then (for "yes")
 
-> then <enter>
+    <enter>
 
 > Compile time! Now we can party!
 
