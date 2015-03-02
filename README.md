@@ -46,16 +46,16 @@ such that, a person can hopefully teach himself if he has a problem or question.
 As stated previously, there are two reccommended paths: 
 
 A student who is new to the D ecosystem might want to start with the 
-[skill](/curriculum/skill.md) curriculum. This curriculum focuses on starting 
+[proficency](/curriculum/proficency.md) curriculum. This curriculum focuses on starting 
 with a minimum knowledge base and sequentially adding to it.
-This curriculum jumps around different technologies based on skill level. 
+This curriculum jumps around different technologies based on proficency level. 
 Once all the "Begginner" skills in all **tech-branches** have been mastered, 
 the curriculum will escalate to the "Intermediate" skills and once again 
 iterate through the "Intemediate" tutorials in all the **tech-branches**.
 
 A student who is familiar with some or a majority of tools in the D ecosystem 
-might prefer to start with the [proficency](/curriculum/proficency.md) curriculum which 
+might prefer to start with the [skill](/curriculum/skill.md) curriculum which 
 focus on specific technologies.
 So, for instance, a person who wants to learn more about **DUB** specifically 
 and ignore everything else, might choose the 
-[proficency](/curriculum/proficency.md) curriculum.
+[skill](/curriculum/skill.md) curriculum.
