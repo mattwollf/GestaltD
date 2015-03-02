@@ -1,4 +1,23 @@
 # GestaltD
+
+## **WARNING**
+**As-It-Stands:** This tutorial is **Heavy Alpha**.
+**This means:** 
+* The information in here **might** be incorrect.
+* Navigation links **might** be broken.
+* The information in here has only been tested and verified on **my machines**.
+* There are **LOTS** of spelling and grammar issues.
+* There are **LOTS** of improper markdown and graphical issues.
+* The information in here is more akin to notes as opposed to an actual tutorial.
+
+**That being said:** 
+* You can probably learn something new by following along.
+* If you find a mistake, bug, markdown issue have a question, etc... please do any of the following:
+    * Fork this tutorial, make a new branch, fix the problem and submit a pull request it for review.
+    * Create a new [Issue](https://github.com/Joshka-Randora/GestaltD/issues) In the Tracker.
+
+Thanks.
+
 ##Tutorial: Understanding the D Environment.
 
 This is a series of tutorials which demonstrates the D ecology.
