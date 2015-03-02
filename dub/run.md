@@ -4,10 +4,14 @@
 
 ##Foreword
 
+This tutorial will focus on using DUB to build and run projects created in the [previous](./create.md) tutorial.
+Here we will only build and run DUB's version of "hello world". 
+So, this is a demonstration on using DUB as a tool, building a useful program 
+is beyond the scope of this tutorial.
+
 ##Prerequisites
 ###Required
 [Create](./create.md) a new DUB project.
-###Optional
 
 ##Core Instruction
 ###Move into your project
@@ -54,12 +58,21 @@
 > It is good enough, for now, to see this message. 
 
 ##Experimenting
+If you are inclined, you can edit **~/d_projects/hello_dub/source/app.d** and change 
+the application to do something different.
+
+For instance, try changing "Edit source/app.d to start your project." in app.d 
+to a custom message of your choice.
 
 ##RTFM
 
 ##Critical Thinking
 
 ##Review
+> Having completed this tuorial you should now be able to:
+* Build a project created with DUB
+* Check to see if the project has been successfully built.
+* Execute the binary
 
 ##Next steps.
 

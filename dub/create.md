@@ -4,11 +4,18 @@
 
 ##Foreword
 
+This tutorial will focus on creating and exploring a new project created with DUB.
+
+DUB provides structure for a new project which makes it easier to manage. 
+This structure is rather opinionated, and may create a different workflow than you are used to. 
+However, learning this structure is the cost of admission. The end advantage being, that: 
+
+* You have a somewhat standardized project that others (who are also familiar with DUB) can understand 
+* You have a tool (DUB) which can streamline your project's workflow.
+
 ##Prerequisites
 ###Required
 [Install](./install.md) DUB.
-
-###Optional
 
 ##Core Instruction
 ### Create a directory to store our projects.
@@ -45,18 +52,23 @@
 
 ##Experimenting
 > Move into the **~/d_projects/hello_dub** directory and look around.
+
     ubuntu@d_virt_env:~ $ cd ~/d_projects/hello_dub
+
     ubuntu@d_virt_env:~/d_projects/hello_dub $ ls -a
 
 > You should see 2 files and 1 directory.
+
     dub.json  .gitignore  source
 
 > We will explain these later, but it is good, for now, to be familiar with the 
 > files which were created.
 
-**dub.json** is a configuration file for your project.
-**.gitignore** is a configuration file for git.
-**source** is the directory where your source code is stored.
+> **dub.json** is a configuration file for your project.
+
+> **.gitignore** is a configuration file for git.
+
+> **source** is the directory where your source code is stored.
 
 > Let's look inside **./source**
 
@@ -64,6 +76,7 @@
     ubuntu@d_virt_env:~/d_projects/hello_dub/source $ ls -a
 
 > There should be 1 file:
+
     app.d
 
 > This is a minimal scaffolding for a D project.

@@ -4,6 +4,8 @@
 
 ##Foreword
 
+This tutorial will focus exclusively on installing DUB onto your virtual environment.
+
 ##Prerequisites
 ###Required
 * Install [git](/git/README.md)
