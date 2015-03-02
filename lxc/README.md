@@ -52,22 +52,20 @@ tutorial series.
 ##Prerequisites
 ###Required
 * [Install Ubuntu](/ubuntu/README.md)
-###Optional
-* None
 
 ##Table of Contents
 * [GestaltD](/README.md)
-* * [LXC](./README.md)
-* * * [Install](./install.md) LXC
-* * * [Create](./create.md) a new D virtual environment (LXC container)
-* * * [Start](./start.md) d_virt_env
-* * * Get d_virt_env [info](./info.md)
-* * * d_virt_env [Login](./login.md)
-* * * [Destroy](./destroy.md) d_virt_env
-* * * [Share](./share.md) d_virt_env with your workgroup
+    * [LXC](./README.md)
+    * [Install](./install.md) LXC
+    * [Create](./create.md) a new D virtual environment (LXC container)
+    * [Start](./start.md) d_virt_env
+    * Get d_virt_env [info](./info.md)
+    * d_virt_env [Login](./login.md)
+    * [Destroy](./destroy.md) d_virt_env
+    * [Share](./share.md) d_virt_env with your workgroup
 
 ##Next steps.
-    [Installation Guide](./install.md)
+[Installation Guide](./install.md)
 
 ##Learn More
 [linuxcontainers.org](https://linuxcontainers.org/)

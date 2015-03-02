@@ -4,35 +4,34 @@ This curriculum is for people who are beginners or have a basic knowledge of
 many different tools and want to start at their "Grade Level".
 
 * **☑ Setup Phase:** These tutorials focus on setting up a basic environment.
-    * ☑ Install Ubuntu
-        * ☑ As a workstation
-        * ☑ As a server / host
-        * ☑ As a virtual environment
-    * ☑ Install SSH
-    * ☑ Install Git
-    * ☑ Install LXC
-    * ☑ Install DMD
-        * ☑ Install binaries
-        * ☑ Compile from source
-    * ☑ Install DUB
+    * **☑ [Install Ubuntu](/ubuntu/install.md)**
+        * **☑ As a workstation**
+        * **☑ As a server / host**
+        * **☑ As a virtual environment**
+    * **☑ [Install SSH](/ssh/install.md)**
+    * **☑ [Install Git](/git/install.md)**
+    * **☑ [Install LXC](/lxc/install.md)**
+    * **☑ Install DMD**
+        * **☑ [Install binaries](/dmd/install.md)**
+        * **☑ Compile from source**
+    * **☑ [Install DUB](/dub/install.md)**
 
 * **☑ Beginner Phase:** These tutorials focus on very simplistic use cases.
-    * ☑ LXC
-        * ☑ Create a new container
-        * ☑ Start a container
-        * ☑ Get a container's info
-        * ☑ Log into a container
-        * 
+    * **☑ LXC**
+        * **☑ [Create a new container](/lxc/create.md)**
+        * **☑ [Start a container](/lxc/start.md)**
+        * **☑ [Get a container's info](/lxc/info.md)**
+        * **☑ [Log into a container](/lxc/login.md)**
 
 * **☑ Intermediate Phase:** These tutorials focus on using tools to solve common problems and create a "minimum viable product".
 
-* **☑ Completion phase:** These tutorials focus on using tools to publish and / or share with a workgroup.
-    * ☑ LXC
-        * ☑ Share a container
+* **☑ Workgroup phase:** These tutorials focus on using tools to publish and / or share with a workgroup.
+    * **☑ LXC**
+        * **☑ Share a container**
 
 * **☑ Advanced Phase:** These tutorials focus on using tools to create a "polished" project.
-    * ☑ LXC
-        * ☑ Destroy a container
+    * **☑ LXC**
+        * **☑ [Destroy a container](/lxc/destroy.md)**
 
 * **☑ Libraries**
 

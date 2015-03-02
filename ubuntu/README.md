@@ -8,18 +8,16 @@
 ##Prerequisites
 ###Required
 * None
-###Optional
-* None
 
 ##Table of Contents
 * [GestaltD](/README.md)
-* * [Ubuntu](./README.md)
-* * * [Install](./install.md) 
+    * [Ubuntu](./README.md)
+        * [Install](./install.md) 
 
 ##Experimenting
 
 ##Next steps.
-    [Installation Guide](./install.md)
+[Installation Guide](./install.md)
 
 ##Learn More
 
